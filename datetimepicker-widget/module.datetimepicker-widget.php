@@ -37,8 +37,8 @@ SetupWebPage::AddModule(
 
 		// Documentation
 		//
-		'doc.manual_setup' => 'https://github.com/vbkunin/datetimepicker-widget', // hyperlink to manual setup documentation, if any
-		'doc.more_information' => 'https://github.com/vbkunin/datetimepicker-widget', // hyperlink to more information, if any
+		'doc.manual_setup' => 'https://github.com/vbkunin/datetimepicker-widget-for-itop', // hyperlink to manual setup documentation, if any
+		'doc.more_information' => 'https://github.com/vbkunin/datetimepicker-widget-for-itop', // hyperlink to more information, if any
 
 		// Default settings
 		//
