@@ -18,6 +18,7 @@ class DateTimePickerJQueryPlugIn implements iPageUIExtension
     $oPage->add_linked_script(utils::GetAbsoluteUrlModulesRoot().'datetimepicker-widget/js/jquery.datetimepicker.js');
     $oPage->add_ready_script(
 <<< EOF
+
       var config = $sConfJSON;
       try {
         $(".datetime-pick, .date-pick")
@@ -35,14 +36,15 @@ class DateTimePickerJQueryPlugIn implements iPageUIExtension
               config.timepicker = false;
               config.closeOnDateSelect = true;
             }
-          })
-          .datetimepicker(config);
+            $(this).datetimepicker(config);
+          });
         $('.calendar').click(function () {
           $(".datetime-pick[name='" + this.name + "'], .date-pick[name='" + this.name + "']").datetimepicker('show');
         });
       } catch (err) {
         // console.log(err);
       }
+
 EOF
     );
   }
