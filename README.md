@@ -11,7 +11,7 @@ datetimepicker-widget-for-itop
  1. Перекладываем папку *datatimepicker-widget* в *itop/extensions/*.
  2. Разрешаем редактирование config-файла iTop *itop/conf/production/config-itop.php*.
  3. Переходим в браузере http://my-itop/setup и выбираем "Upgrade an existing iTop instance".
- 4. На предпоследнем шаге ставим галочку напротив модуля названия модуля и устанавливаем.
+ 4. На предпоследнем шаге ставим галочку напротив названия модуля и устанавливаем.
  5. Готово.
 
 ### Настройка
