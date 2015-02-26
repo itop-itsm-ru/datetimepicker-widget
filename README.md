@@ -4,15 +4,15 @@ datetimepicker-widget-for-itop
 
 
 Этот модуль заменяет стандартный виджет выбора даты и времени на вот [этот](https://github.com/xdan/datetimepicker):
-![Date And Time Picker Widger for Combodo iTop](doc/datetimepicker-widget.png)
+![Date And Time Picker Widger for Combodo iTop](datetimepicker-widget/doc/datetimepicker-widget.png)
 
 ### Установка
 Устанавливаем, как и любой другой модуль в iTop:
-1. Перекладываем папку *datatimepicker-widget* в *itop/extensions/*.
-2. Разрешаем редактирование config-файла iTop *itop/conf/production/config-itop.php*.
-3. Переходим в браузере http://my-itop/setup и выбираем "Upgrade an existing iTop instance".
-4. На предпоследнем шаге ставим галочку напротив модуля названия модуля и устанавливаем.
-5. Готово.
+ 1. Перекладываем папку *datatimepicker-widget* в *itop/extensions/*.
+ 2. Разрешаем редактирование config-файла iTop *itop/conf/production/config-itop.php*.
+ 3. Переходим в браузере http://my-itop/setup и выбираем "Upgrade an existing iTop instance".
+ 4. На предпоследнем шаге ставим галочку напротив модуля названия модуля и устанавливаем.
+ 5. Готово.
 
 ### Настройка
 После установки модуля и config-файле добавятся параметры виджета, доступные для редактирования.
