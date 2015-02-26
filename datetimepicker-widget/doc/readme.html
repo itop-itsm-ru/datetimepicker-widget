@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>DateTimePicker Widget</title>
+    <link rel="stylesheet" type="text/css" href="../css/github-markdown.css">
+    <style>
+    .markdown-body {
+        min-width: 200px;
+        max-width: 790px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    </style>
+  </head>
+  <body class="markdown-body">
+    <h1 id="datetimepicker-widget-for-itop">datetimepicker-widget-for-itop</h1>
+    <p>Удобный виджет выбора даты и времени для <a href="http://combodo.com/itop">Combodo iTop</a></p>
+    <p>Этот модуль заменяет стандартный виджет выбора даты и времени на вот <a href="https://github.com/xdan/datetimepicker">этот</a>:
+    <img src="datetimepicker-widget.png" alt="Date And Time Picker Widger for Combodo iTop"></p>
+    <h3 id="-">Установка</h3>
+    <p>Устанавливаем, как и любой другой модуль в iTop:</p>
+    <ol>
+    <li>Перекладываем папку <em>datatimepicker-widget</em> в <em>itop/extensions/</em>.</li>
+    <li>Разрешаем редактирование config-файла iTop <em>itop/conf/production/config-itop.php</em>.</li>
+    <li>Переходим в браузере <a href="http://my-itop/setup">http://my-itop/setup</a> и выбираем &quot;Upgrade an existing iTop instance&quot;.</li>
+    <li>На предпоследнем шаге ставим галочку напротив модуля названия модуля и устанавливаем.</li>
+    <li>Готово.</li>
+    </ol>
+    <h3 id="-">Настройка</h3>
+    <p>После установки модуля и config-файле добавятся параметры виджета, доступные для редактирования.</p>
+    <pre class="editor-colors lang-text"><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&#39;datetimepicker-widget&#39;&nbsp;=&gt;&nbsp;array&nbsp;(</span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;&nbsp;</span><span class="meta paragraph text"><span>&#39;default&#39;&nbsp;=&gt;&nbsp;array(</span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta paragraph text"><span>&#39;lang&#39;&nbsp;=&gt;&nbsp;&#39;ru&#39;,</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&#39;dayOfWeekStart&#39;&nbsp;=&gt;&nbsp;1,</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&#39;step&#39;&nbsp;=&gt;&nbsp;30</span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;&nbsp;</span><span class="meta paragraph text"><span>)</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>),</span></span></span></div></pre><p>Возможные значения параметров смотри в <a href="http://xdsoft.net/jqplugins/datetimepicker/">документации к плагину</a>.</p>
+    <h3 id="-">Ограничения</h3>
+    <ul>
+    <li>Формат может быть только такой: <code>Y-m-d H:i</code>.</li>
+    </ul>
+    <h3 id="-">Дальнейшие планы</h3>
+    <ul>
+    <li>Добавить разные настройки для разных полей.</li>
+    </ul>
+    <h3 id="-">Ссылки</h3>
+    <ul>
+    <li><a href="http://community.itop-itsm.ru">iTop ITSM &amp; CMDB по-русски</a></li>
+    <li><a href="http://www.combodo.com/itop">Сайт Combodo iTop</a></li>
+    <li><a href="http://xdsoft.net/jqplugins/datetimepicker/">DateTimePicker jQuery plugin</a></li>
+    </ul>
+  </body>
+</html>

@@ -2,7 +2,7 @@
 
 /**
  * Module DateTimePicker Wigdet (jQuery plugin)
- * https://github.com/vbkunin/datetimepicker-widget
+ * https://github.com/vbkunin/datetimepicker-widget-for-itop
  *
  * @author      Vladimir Kunin <v.b.kunin@gmail.com>
  * @license     http://www.opensource.org/licenses/gpl-3.0.html LGPL
