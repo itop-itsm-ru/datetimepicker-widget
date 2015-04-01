@@ -13,6 +13,18 @@ class DateTimePickerJQueryPlugIn implements iPageUIExtension
 
   public function GetBannerHtml(iTopWebPage $oPage)
   {
+    self::AddScript($oPage);
+  }
+
+  public function GetNorthPaneHtml(iTopWebPage $oPage)
+  {
+  }
+
+  public function GetSouthPaneHtml(iTopWebPage $oPage)
+  {
+  }
+
+  public static function AddScript($oPage) {
     $sConfJSON = json_encode(utils::GetConfig()->GetModuleSetting('datetimepicker-widget', 'default'));
     $oPage->add_linked_stylesheet(utils::GetAbsoluteUrlModulesRoot().'datetimepicker-widget/css/jquery.datetimepicker.css');
     $oPage->add_linked_script(utils::GetAbsoluteUrlModulesRoot().'datetimepicker-widget/js/jquery.datetimepicker.js');
@@ -48,14 +60,5 @@ class DateTimePickerJQueryPlugIn implements iPageUIExtension
 EOF
     );
   }
-
-  public function GetNorthPaneHtml(iTopWebPage $oPage)
-  {
-  }
-
-  public function GetSouthPaneHtml(iTopWebPage $oPage)
-  {
-  }
-
 }
 ?>
