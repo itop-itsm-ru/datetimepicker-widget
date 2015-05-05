@@ -48,7 +48,7 @@ datetimepicker-widget-for-itop (en)
 Friendly date and time picker wedget for [Combodo iTop 2.1](http://combodo.com/itop).
 
 
-This module replaces the standard widget to select the date and time with [this one](https://github.com/xdan/datetimepicker):
+This module replaces the standard date and time picker widget with [this one](https://github.com/xdan/datetimepicker):
 ![Date And Time Picker Widger for Combodo iTop](datetimepicker-widget/doc/datetimepicker-widget.png)
 
 ### Installation
@@ -56,11 +56,11 @@ Install like any other module in iTop:
  1. Copy folder *datatimepicker-widget* to *itop/extensions/*.
  2. Make editable iTop config file *itop/conf/production/config-itop.php*.
  3. Go to http://my-itop/setup in your browser and select "Upgrade an existing iTop instance".
- 4. Check the module on the penultimate step and install.
+ 4. Check the module name on the penultimate step and install.
  5. Done.
 
 ### Configuration
-After installing the widget some options will be added in the config file.
+Some options will be added in the config file after the module installing.
 ```
 'datetimepicker-widget' => array (
   'default' => array(
@@ -70,13 +70,13 @@ After installing the widget some options will be added in the config file.
   )
 ),
 ```
-For other options and available values see [documentation for the plugin](http://xdsoft.net/jqplugins/datetimepicker/).
+For other options and available values look through [documentation for the plugin](http://xdsoft.net/jqplugins/datetimepicker/).
 
 ### Limitations
  - Only this date and time format is allowed: `Y-m-d H:i`.
 
 ### Future plans
-- Add support separate settings for different date and time fields.
+- Add support different settings for specific date and time fields.
 
 ### Links
 - [iTop ITSM & CMDB russian community](http://community.itop-itsm.ru)
