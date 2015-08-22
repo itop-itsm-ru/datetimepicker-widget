@@ -6,7 +6,7 @@ datetimepicker-widget (ru)
 
 
 Этот модуль заменяет стандартный виджет выбора даты и времени на вот [этот](https://github.com/xdan/datetimepicker):
-![Date And Time Picker Widger for Combodo iTop](datetimepicker-widget/doc/datetimepicker-widget.png)
+![Date And Time Picker Widger for Combodo iTop](doc/datetimepicker-widget.png)
 
 ### Установка
 Устанавливаем, как и любой другой модуль в iTop:
