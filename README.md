@@ -1,4 +1,4 @@
-datetimepicker-widget-for-itop (ru)
+datetimepicker-widget (ru)
 ===================================
 *Scroll down for English.*
 
@@ -41,7 +41,7 @@ datetimepicker-widget-for-itop (ru)
 - [DateTimePicker jQuery plugin](http://xdsoft.net/jqplugins/datetimepicker/)
 
 
-datetimepicker-widget-for-itop (en)
+datetimepicker-widget (en)
 ===================================
 *Русский язык вверху*
 
