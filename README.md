@@ -49,7 +49,7 @@ Friendly date and time picker wedget for [Combodo iTop 2.1](http://combodo.com/i
 
 
 This module replaces the standard date and time picker widget with [this one](https://github.com/xdan/datetimepicker):
-![Date And Time Picker Widger for Combodo iTop](datetimepicker-widget/doc/datetimepicker-widget.png)
+![Date And Time Picker Widger for Combodo iTop](doc/datetimepicker-widget.png)
 
 ### Installation
 Install like any other module in iTop:
