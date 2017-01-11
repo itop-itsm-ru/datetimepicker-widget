@@ -66,6 +66,7 @@ SetupWebPage::AddModule(
 		// Default settings
 		//
 		'settings' => array(
+			'enabled' => true,
 			'default' => array(
 				'lang' => 'ru',
 				'dayOfWeekStart' => 1,

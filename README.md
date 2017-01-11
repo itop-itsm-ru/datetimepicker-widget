@@ -20,6 +20,7 @@ datetimepicker-widget (ru)
 После установки модуля в config-файле добавятся параметры виджета, доступные для редактирования.
 ```
 'datetimepicker-widget' => array (
+  'enabled' => true,
   'default' => array(
     'lang' => 'ru',
     'dayOfWeekStart' => 1,
@@ -63,6 +64,7 @@ Install like any other module in iTop:
 Some options will be added in the config file after the module installing.
 ```
 'datetimepicker-widget' => array (
+  'enabled' => true,
   'default' => array(
     'lang' => 'ru',
     'dayOfWeekStart' => 1,

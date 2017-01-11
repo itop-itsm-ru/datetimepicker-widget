@@ -13,7 +13,7 @@ class DateTimePickerJQueryPlugIn implements iPageUIExtension
 
   public function GetBannerHtml(iTopWebPage $oPage)
   {
-    self::AddScript($oPage);
+     if (utils::GetConfig()->GetModuleSetting('datetimepicker-widget', 'enabled', false)) self::AddScript($oPage);
   }
 
   public function GetNorthPaneHtml(iTopWebPage $oPage)
